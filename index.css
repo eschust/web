@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.header{
+    width: 80%;
+    margin: 0px auto;
+    border-top: 10px solid #9c1010;
+    padding: 10px 0px;
+}
+.text-logo{
+    float: left;
+}
+.text-logo h1 a{
+    color: #7f0000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.social-media{
+    float: right;
+}
+.social-media ul{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.social-media ul li{
+    display: inline;
+    margin: 0px 5px;
+}
+.social-media ul li a{
+    color: #7f0000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.neck{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./657259.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.neck img{
+    width: 200px;
+}
+.neck h1{
+    color: white;
+    margin: 10px 0px;
+    font-size: 50px;
+}
+.neck h2{
+    color: white;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+.main{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+.inner-main{
+    width: 80%;
+    margin: 50px auto;
+}
+.inner-main h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+.inner-main h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inner-main h3{
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.para{
+    font-weight: bold;
+    font-size: 20px;
+}
+.inner-main p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.inner-main h4,h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.inner-main h4{
+    font-size: 20px;
+}
+.inner-main h5{
+    font-size: 18px;
+}
+.inner-main ul{
+    margin-left: 10px;
+    list-style: none;
+}
+.inner-main ul li{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.inner-main img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
