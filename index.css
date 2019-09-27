@@ -41,6 +41,11 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+.social-media ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #7f0000;
+    transition: 0.5s;
+}
 .neck{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./657259.jpg");
     background-size: cover;
@@ -62,6 +67,21 @@ body{
     color: white;
     margin: 10px 0px;
     font-size: 30px;
+}
+.neck h3{
+    margin: 50px 0px;
+}
+.neck h3 a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 30px;
+}
+.neck h3 a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 .main{
     width: 50%;
@@ -181,6 +201,21 @@ body{
         color: white;
         margin: 5px 0px;
         font-size: 14px;
+    }
+    .neck h3{
+        margin: 20px 0px;
+    }
+    .neck h3 a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .neck h3 a:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s;
     }
     .main{
         width: 100%;
