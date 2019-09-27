@@ -16,6 +16,7 @@
         margin: 0px auto;
         margin-bottom: 50px;
         width: 80%;
+        background-color: black;
     }
 }
 @media screen and (max-width: 1023px){
@@ -33,5 +34,6 @@
         margin: 0px auto;
         margin-bottom: 20px;
         width: 80%;
+        background-color: black;
     }
 }
